@@ -33,3 +33,5 @@ ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **et
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
 Pour éviter de remettre toujours login/mdp -> enregistrement de la clé SSH publique.
+
+Réponse à la quête : **On n'apprend bien qu'a force de se tromper**
