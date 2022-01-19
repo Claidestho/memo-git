@@ -12,3 +12,5 @@
 Ordre apparent des commande :
 
 git init -> git add -> git commit -> git diff -> git push
+
+Pour éviter de remettre toujours login/mdp -> enregistrement de la clé SSH publique.
