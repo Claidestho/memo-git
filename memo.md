@@ -28,6 +28,8 @@ ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **et
 
 - **git tag** : Permet d'étiquetter un commit pour montrer son importance (exemple v1.0 pour la premiere version utilisable d'un programme).
 
+- **git pull** : Importe dans le repo local les élements du repo distant 
+
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
 Pour éviter de remettre toujours login/mdp -> enregistrement de la clé SSH publique.
