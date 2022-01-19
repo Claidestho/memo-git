@@ -20,7 +20,7 @@ Ordre apparent des commande : Affiche l'état du projet, la branche sur laquelle
 
 - **git log** : Permet d'afficher le journal de toutes les opérations précédentes effectuées.
 
-- **git checkout** : Permet de revenir à une version précédente, en précisant le commit à annuler. 
+- **git checkout** : Permet de revenir à une version précédente, en précisant le commit à annuler. Permet également de naviguer entre les différentes branches du projet.
 
 ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **etapes.md** est modifié tel qu'il était avant le commit **acffcf1**
 
@@ -30,8 +30,14 @@ ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **et
 
 - **git pull** : Importe dans le repo local les élements du repo distant 
 
+- **git merge** : Permet de fusionner la branche ciblée avec la branche principale
+
+-**git branch** : Permet d'afficher les différentes branches et de monter la branche active.
+
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
 Pour éviter de remettre toujours login/mdp -> enregistrement de la clé SSH publique.
 
 Réponse à la quête : **On n'apprend bien qu'a force de se tromper**
+
+# Conflits / Résolution
