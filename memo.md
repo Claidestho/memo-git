@@ -26,6 +26,7 @@ ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **et
 
 - **git revert** : Cette commande permet d'inverser les changements apportées par un commit (création > suppresion, inversion déplacement, etc...)
 
+- **git tag** : Permet d'étiquetter un commit pour montrer son importance (exemple v1.0 pour la premiere version utilisable d'un programme).
 
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
