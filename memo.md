@@ -13,9 +13,12 @@
 
 - **git push** : Push permet d'envoyer vers le dépot distant les modifications apportées par le dernier commit. 
 
-- **git diff** : Cette commande permet d'afficher les différences entre les versions locales des fichiers et les versions sur le serveur distant.
+- **git diff** : Cette commande permet d'afficher les différences entre les versions locales des fichiers et les versions sur le serveur distant indiqué via git add.
 
-Ordre apparent des commande :
+- **git status** :
+Ordre apparent des commande : Affiche l'état du projet, la branche sur laquelle on travaille ainsi que tous les changements effectués.
+
+- **git log** :
 
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
