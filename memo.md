@@ -3,4 +3,6 @@
 
 - git add : Cette commande est utilisée pour ajouter les fichiers qui seront inclus dans le dépot, et qui seront transmis lors des futus commits / push.
 
-- git commit : Cett e commande permet d'envoyer le dépot sur un serveur distant, une plateforme telle que Github / Gitlab
+- git commit : Cette commande permet de modifier le dépot local avec les ficheirs choisis via git add
+
+- git push : Push permet d'envoyer vers le dépot distant les modifications apportées par le dernier commit.
