@@ -41,3 +41,7 @@ Pour éviter de remettre toujours login/mdp -> enregistrement de la clé SSH pub
 Réponse à la quête : **On n'apprend bien qu'a force de se tromper**
 
 # Conflits / Résolution
+
+# Pull requests 
+
+Les pulls request sont crées afin de demander la fusion d'une branche à la branche principale. Cela permet de vérifier les changements apportées par cette fusion avant de la mettre en place. Une pull request peut être demandée par un contributeur mais devra toujours être validée par un maintener.
