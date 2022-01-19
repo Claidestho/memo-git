@@ -18,7 +18,14 @@
 - **git status** :
 Ordre apparent des commande : Affiche l'état du projet, la branche sur laquelle on travaille ainsi que tous les changements effectués.
 
-- **git log** :
+- **git log** : Permet d'afficher le journal de toutes les opérations précédentes effectuées.
+
+- **git checkout** : Permet de revenir à une version précédente, en précisant le commit à annuler. 
+
+ex : <code>git checkout acffcf1 instructions/etapes.md</code> -> Le fichier **etapes.md** est modifié tel qu'il était avant le commit **acffcf1**
+
+- **git revert** : Cette commande permet d'inverser les changements apportées par un commit (création > suppresion, inversion déplacement, etc...)
+
 
 **git init** -> **git add** -> **git commit** -> **git diff** -> **git push**
 
