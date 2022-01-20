@@ -50,6 +50,12 @@ Réponse à la quête : **On n'apprend bien qu'a force de se tromper**
 
 # Conflits / Résolution
 
+En cas d'un conflit qui ne peut pas être gérer par Github via un auto merge, il faut arriver à sortir du statut de merge :
+
+- En abandonnant le commit causant le conflit en revenant au dernier commit actuel.
+
+- Soit en modifiant les différents fichiers générant des conflits en vérifiant quelles sont ceux modifiés par le push causant le conflit grâce aux marqueurs de fusion ajoutés au code source. Grâce à VS code on peut facilement choisir quoi faire pour chaque changement (garder le changement, annuler le changement, etc...)
+
 # Pull requests 
 
 Les pulls request sont crées afin de demander la fusion d'une branche à la branche principale. Cela permet de vérifier les changements apportées par cette fusion avant de la mettre en place. Une pull request peut être demandée par un contributeur mais devra toujours être validée par un maintener.
